@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(aquamarine, teal);
+    font-weight: 700;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+}
+#body {
+        transition:
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 350px;
+    font-family: monospace;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+p {
+    padding: 20px;
+    border: black solid 3px;
+    text-align: center
+
+}
+
+button {
+    margin-top: 0;
+    background: black;
+    border: 0;
+    font-family: monospace;
+    padding: 10px 30px;
+    color: white;
+    transition: 300ms;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border-radius: 100%
+
+}
+
+button:hover, button:focus {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+button:active {
+    transition: 0ms;
+    color: black;
+    background: transparent;
+    border: black solid 3px;
+}
+
+.pink {
+    background: linear-gradient(pink, hotpink)
+}
+
+.yellow {
+    background: linear-gradient(wheat, sandybrown)
+}
+
+.green {
+    background: linear-gradient(palegreen, greenyellow)
+}
+
+.purple {
+    background: linear-gradient(plum, rebeccapurple)
+}
