@@ -76,3 +76,19 @@ button:active {
 .purple {
     background: linear-gradient(plum, rebeccapurple)
 }
+
+
+@media (min-width: 650px){
+  body{
+    font-size: 32px;
+  }
+  #content{
+    max-width: 500px;
+  }
+  button{
+    margin-top: 0;
+    width: 75px;
+    height: 75px;
+    font-size: 20px;
+  }
+}
